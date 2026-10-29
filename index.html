@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vishnu Reddy Singireddy — Data Engineer focused on data pipelines, cloud data solutions, and analytics." />
+  <title>Vishnu Reddy Singireddy | Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <canvas id="webCanvas" class="web-canvas" aria-hidden="true"></canvas>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgressBar"></span></div>
+  <div class="spider-cursor" id="spiderCursor" aria-hidden="true"><span></span></div>
+
+
+    <section class="spider-intro" id="intro" aria-label="Portfolio opening">
+      <div class="intro-web-lines" aria-hidden="true">
+        <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+          <g class="web-fan">
+            <path d="M0 0 L720 450 L1440 0 M0 180 L720 450 L1440 180 M0 360 L720 450 L1440 360 M0 540 L720 450 L1440 540 M0 720 L720 450 L1440 720 M120 0 L720 450 L1320 0 M0 0 L0 900 M1440 0 L1440 900"/>
+            <path d="M0 95 Q720 220 1440 95 M0 250 Q720 350 1440 250 M0 650 Q720 550 1440 650 M0 810 Q720 680 1440 810 M180 0 Q250 450 180 900 M420 0 Q470 450 420 900 M1020 0 Q970 450 1020 900 M1260 0 Q1190 450 1260 900"/>
+          </g>
+        </svg>
+      </div>
+      <div class="intro-halo"></div>
+      <div class="intro-spider-mark" aria-hidden="true">
+        <svg viewBox="0 0 180 210" role="presentation">
+          <path d="M90 38 C78 54 77 73 90 88 C103 73 102 54 90 38Z"/>
+          <path d="M80 65 L56 48 L65 79 L42 69 L57 104 L37 108 L62 126 L54 150 L79 139 L90 171 L101 139 L126 150 L118 126 L143 108 L123 104 L138 69 L115 79 L124 48 L100 65"/>
+          <path d="M82 86 L69 110 L82 122 L90 151 L98 122 L111 110 L98 86"/>
+        </svg>
+      </div>
+      <div class="intro-content">
+        <p class="intro-kicker intro-reveal">// PORTFOLIO INITIALIZING</p>
+        <p class="intro-overline intro-reveal">DATA ENGINEER · AI &amp; ANALYTICS</p>
+        <h1 class="intro-name glitch-text" data-text="VISHNU">VISHNU</h1>
+        <div class="intro-name-underline" aria-hidden="true"><span></span></div>
+        <p class="intro-fullname intro-reveal">REDDY SINGIREDDY</p>
+        <p class="intro-subtitle intro-reveal">BUILDING <span>·</span> CONNECTING <span>·</span> DELIVERING INSIGHT</p>
+      </div>
+      <div class="intro-bottom-line" aria-hidden="true"><span></span></div>
+      <a class="intro-scroll" href="#home"><span>ENTER PORTFOLIO</span><b>↓</b></a>
+      <div class="intro-corner intro-corner-left">ST. LOUIS, MO <i> / </i> 2026</div>
+      <div class="intro-corner intro-corner-right">SYSTEM ONLINE <i></i></div>
+    </section>
+
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Vishnu home"><span class="brand-mark">V</span><span>Vishnu<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#experience">Experience</a>
+      <a class="nav-cta" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+
+
+
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> FRIENDLY NEIGHBORHOOD DATA ENGINEER · ST. LOUIS, MO</p>
+        <h1 class="glitch-text" data-text="With great data comes great insight.">With great data comes <span class="gradient-text">great insight.</span></h1>
+        <p class="hero-description">I build and improve data workflows, integrations, and analytics-ready datasets—with a focus on quality, performance, and dependable delivery.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-quiet" href="#contact">Contact me <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-number">MS</span><span class="meta-label">Information Systems</span></div>
+          <div><span class="meta-number">ETL</span><span class="meta-label">Pipelines & integrations</span></div>
+          <div><span class="meta-number">AI</span><span class="meta-label">Data-driven projects</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative data pipeline illustration">
+        <div class="visual-top"><span>PIPELINE_OVERVIEW</span><span class="live-pill">● READY</span></div>
+        <div class="pipeline">
+          <div class="pipeline-node source-node"><span class="node-icon">↘</span><div><b>Data sources</b><small>APIs · Files · Events</small></div></div>
+          <div class="pipeline-line"><span></span></div>
+          <div class="pipeline-node transform-node"><span class="node-icon">⌘</span><div><b>Transform & validate</b><small>Python · SQL · ETL/ELT</small></div></div>
+          <div class="pipeline-line"><span></span></div>
+          <div class="pipeline-node warehouse-node"><span class="node-icon">▤</span><div><b>Analytics-ready data</b><small>Reliable · Structured · Useful</small></div></div>
+        </div>
+        <div class="visual-footer"><span><i class="mini-square"></i> data quality</span><span><i class="mini-square mint"></i> automation</span><span><i class="mini-square violet"></i> analytics</span></div>
+        <div class="floating-chip chip-a">SELECT * FROM growth</div>
+        <div class="floating-chip chip-b"><span>✓</span> validation passed</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-kicker">01 / ABOUT</div>
+      <div class="section-heading-grid">
+        <h2>Curious by nature.<br><span class="muted-heading">Engineer by practice.</span></h2>
+        <div class="about-copy">
+          <p>I'm Vishnu Reddy Singireddy, a Data Engineer with an M.S. in Information Systems from Saint Louis University. I enjoy working at the intersection of data engineering, cloud technologies, and analytics.</p>
+          <p>My work centers on building maintainable data workflows, connecting data sources, improving pipeline reliability, and preparing trusted datasets for reporting and machine-learning use cases.</p>
+          <div class="about-facts">
+            <div><span class="fact-icon">⌖</span><div><b>Based in</b><small>St. Louis, Missouri</small></div></div>
+            <div><span class="fact-icon">⌁</span><div><b>Focus</b><small>Data engineering & analytics</small></div></div>
+            <div><span class="fact-icon">◇</span><div><b>Education</b><small>M.S. Information Systems</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-kicker">02 / TOOLKIT</div>
+      <div class="section-title-row"><h2>Tools I work with</h2><p>A practical toolkit for moving, shaping, and understanding data.</p></div>
+      <div class="skills-grid">
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">⌘</span><span class="skill-meter"><i style="--skill-level: 90%"></i></span><span class="card-index">01</span></div><h3>Languages</h3><div class="tag-list"><span>Python</span><span>SQL</span><span>Java</span></div></article>
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">⇄</span><span class="skill-meter"><i style="--skill-level: 74%"></i></span><span class="card-index">02</span></div><h3>Data engineering</h3><div class="tag-list"><span>ETL / ELT</span><span>Data ingestion</span><span>Data modeling</span><span>Data quality</span><span>API integration</span></div></article>
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">☁</span><span class="skill-meter"><i style="--skill-level: 79%"></i></span><span class="card-index">03</span></div><h3>Cloud & platforms</h3><div class="tag-list"><span>AWS S3</span><span>EC2</span><span>RDS</span><span>Redshift</span><span>Azure Data Factory</span></div></article>
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">▦</span><span class="skill-meter"><i style="--skill-level: 96%"></i></span><span class="card-index">04</span></div><h3>Processing & orchestration</h3><div class="tag-list"><span>Spark</span><span>Hadoop</span><span>Kafka</span><span>Hive</span><span>Airflow</span></div></article>
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">◫</span><span class="skill-meter"><i style="--skill-level: 84%"></i></span><span class="card-index">05</span></div><h3>Databases</h3><div class="tag-list"><span>PostgreSQL</span><span>MySQL</span><span>NoSQL</span></div></article>
+        <article class="reveal-card skill-card"><div class="reveal-card skill-card-head"><span class="skill-icon">↗</span><span class="skill-meter"><i style="--skill-level: 83%"></i></span><span class="card-index">06</span></div><h3>Delivery & analytics</h3><div class="tag-list"><span>Git</span><span>Docker</span><span>CI/CD</span><span>Power BI</span><span>Tableau</span></div></article>
+      </div>
+      <p class="small-note">Skills listed reflect the current resume and can be adjusted to match your hands-on experience.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-kicker">03 / SELECTED PROJECTS</div>
+      <div class="section-title-row"><h2>Projects with a purpose</h2><p>Examples of using data and machine learning to solve practical problems.</p></div>
+      <div class="projects-grid">
+        <article class="reveal-card project-card project-featured">
+          <div class="project-art sql-art"><div class="code-window"><div class="window-controls"><i></i><i></i><i></i><span>query_generator.py</span></div><pre><span class="code-purple">prompt</span> = <span class="code-green">"Show monthly revenue"</span>
+<span class="code-purple">query</span> = generate_sql(prompt)
+
+<span class="code-blue">SELECT</span> month, <span class="code-yellow">SUM</span>(revenue)
+<span class="code-blue">FROM</span> transactions
+<span class="code-blue">GROUP BY</span> month;</pre></div><span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span></div>
+          <div class="project-content"><div class="project-type">AI · PYTHON · SQL</div><h3>AI-Powered SQL Query Generator</h3><p>Designed a natural-language-to-SQL project using prompt engineering to help translate user questions into SQL, with query validation against database context.</p><div class="project-bottom"><div class="tag-list"><span>Prompt engineering</span><span>SQL validation</span></div><span class="project-arrow">↗</span></div></div>
+        </article>
+        <article class="reveal-card project-card">
+          <div class="project-art vision-art"><div class="vision-frame"><div class="leaf-shape"></div><div class="scan-corner corner-tl"></div><div class="scan-corner corner-tr"></div><div class="scan-corner corner-bl"></div><div class="scan-corner corner-br"></div><span class="vision-label">OBJECT DETECTED</span></div><div class="vision-stat">MODEL <b>RCNN</b></div></div>
+          <div class="project-content"><div class="project-type">COMPUTER VISION · DEEP LEARNING</div><h3>Weed Detection</h3><p>Explored image-based weed detection using deep-learning approaches, including Inception-ResNetV2 and region-based convolutional neural networks.</p><div class="project-bottom"><div class="tag-list"><span>Deep learning</span><span>Image analysis</span></div><span class="project-arrow">↗</span></div></div>
+        </article>
+        <article class="reveal-card project-card">
+          <div class="project-art health-art"><div class="health-chart"><div class="chart-caption">PREDICTION MODEL</div><div class="chart-bars"><i style="height:35%"></i><i style="height:58%"></i><i style="height:44%"></i><i style="height:75%"></i><i style="height:62%"></i><i style="height:88%"></i><i style="height:70%"></i></div><div class="chart-labels"><span>Feature A</span><span>Feature B</span><span>Feature C</span></div></div></div>
+          <div class="project-content"><div class="project-type">MACHINE LEARNING · CLASSIFICATION</div><h3>Diabetes Prediction System</h3><p>Built a predictive modeling project exploring classification techniques to estimate diabetes risk from input features.</p><div class="project-bottom"><div class="tag-list"><span>Decision Tree</span><span>Random Forest</span><span>SVM</span></div><span class="project-arrow">↗</span></div></div>
+        </article>
+      </div>
+      <p class="small-note">Project descriptions are concise portfolio summaries. Add GitHub links, screenshots, datasets, and measured results before publishing if available.</p>
+    </section>
+
+
+
+    <section class="section-wrap section-block" id="research">
+      <div class="section-kicker">04 / RESEARCH</div>
+      <div class="section-title-row"><h2>Research &amp; exploration</h2><p>Applying image processing and deep learning to practical agricultural challenges.</p></div>
+      <article class="research-card">
+        <div class="research-art" aria-hidden="true"><div class="research-orbit orbit-a"></div><div class="research-orbit orbit-b"></div><div class="research-center">⌁</div><span class="research-label">IMAGE PROCESSING · AGRICULTURE</span></div>
+        <div class="research-content">
+          <div class="project-type">ORIGINAL ARTICLE MANUSCRIPT · FIRST AUTHOR</div>
+          <h3>Weed Detection Using Deep Learning and Image Processing</h3>
+          <p class="research-journal">Irish Journal of Medical Science · Manuscript ID: IJMS-D-23-00181</p>
+          <p>This research explores identifying weed patches in field photographs using MATLAB image-processing tools, with a focus on supporting more targeted herbicide application and precision agriculture.</p>
+          <div class="tag-list"><span>MATLAB image processing</span><span>Color segmentation</span><span>Agriculture</span><span>Deep learning context</span></div>
+          <p class="research-status">Status: manuscript draft. This portfolio does not represent it as published or accepted.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-kicker">05 / EXPERIENCE & EDUCATION</div>
+      <div class="section-title-row"><h2>Building, learning,<br>improving.</h2><p>Focused on reliable delivery and continuous growth across data systems.</p></div>
+      <div class="timeline">
+        <div class="reveal-card timeline-item"><div class="timeline-date">MAR 2026 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-detail"><div class="timeline-heading"><h3>Data Engineer</h3><span class="timeline-badge">REMOTE</span></div><p class="company">Viz Digital Marketing, LLC</p><ul><li>Support data ingestion workflows for batch, streaming, incremental, and API-based sources.</li><li>Develop and optimize ETL/ELT pipelines, including reliability, retry, and failure-recovery practices.</li><li>Contribute to version-controlled delivery, data cataloging, lineage, cloud migration, and performance tuning.</li><li>Prepare structured, feature-ready datasets for analytics and machine-learning workflows.</li></ul></div></div>
+        <div class="reveal-card timeline-item"><div class="timeline-date">DEC 2025</div><div class="timeline-marker"></div><div class="timeline-detail"><div class="timeline-heading"><h3>M.S. Information Systems</h3><span class="timeline-badge">GPA 3.6 / 4.0</span></div><p class="company">Saint Louis University</p><p>Graduate study focused on information systems, data, and technology-enabled business solutions.</p></div></div>
+        <div class="reveal-card timeline-item"><div class="timeline-date">2023</div><div class="timeline-marker"></div><div class="timeline-detail"><div class="timeline-heading"><h3>B.Tech, Information Technology</h3></div><p class="company">Vardhaman College of Engineering</p><p>Undergraduate foundation in computing and information technology.</p></div></div>
+      </div>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+      <div class="contact-orb"></div>
+      <div class="section-wrap contact-inner">
+        <div class="section-kicker">06 / CONTACT</div>
+        <h2>Have a data challenge<br>in mind<span class="gradient-text">?</span></h2>
+        <p>I'd be glad to connect about data engineering, analytics, and opportunities to build useful things with data.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:reddyvishnu183@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-outline" href="https://www.linkedin.com/in/vishnu-reddy-b1052a219/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+        <div class="contact-details"><span>reddyvishnu183@gmail.com</span><span>St. Louis, Missouri, USA</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">V</span><span>Vishnu<span class="brand-dot">.</span></span></a><span>Your friendly neighborhood data engineer.</span><span>© <span id="year"></span> Vishnu Reddy Singireddy</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
